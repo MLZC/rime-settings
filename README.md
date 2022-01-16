@@ -52,7 +52,6 @@
 
 
   ## 更新记录
-  - 2022.01.16 更改默认输入方案为`luna_pinyin`，替换`花园明朝`字体为[思源宋体](https://source.typekit.com/source-han-serif/cn/)或[天珩字库](http://cheonhyeong.com/Simplified/download.html)。
   - 2020.03.31 主要问题修复，在 macOS Majave 上测试没有「大BUG」
   - 2020.04.01 感谢 [@mingcheng](https://github.com/mingcheng) 提供的词库
   - 2020.04.02 上传了 Windows 的配置文件，经试验，macOS 皮肤的有些特性不支持，于是只加（chao）了一个 win10 输入法皮肤，有个性化需求的用户请自己定制（定制指南见后）
@@ -70,6 +69,7 @@
   - 2020.11.15 1、**更新词库**，引用部分[@alswl](https://github.com/alswl/Rime)提供的细胞词库，以及[@thtfhsw](https://github.com/thtfhsw/rime-essay-creator)8万带词频的词典库。词库目前的标准是小而精，但也不能太小。由于Rime的特点（本地、不联网），目前的输入法还远远达不到联网输入法的精确度，词语的组合只能按照词频来。词库大小的限制，对于长句、长词，无法做到一次命中，这也是Rime最大的缺点了，也是非常难提升的点。如果长期使用Rime，自己养词库的话，这个缺点长期来看影响很小，毕竟输入法有记忆的功能。适当的配置加上符合自己的词库，Rime是一个非常棒的输入法。2、引入lua选词拓展[rime-lua-select-character](https://github.com/BlindingDark/rime-lua-select-character)。引用原项目的介绍：
   > 以词定字可以让你在输入一个词组后，选取这个词组的开头或结尾的一个字直接上屏，比如想要打“嫉”这个字，可以先打“嫉妒”再按 [ 键选择第一个字，这样在输入一些生僻字的时候会有所帮助。按 [ 键将会选中词组的第一个字，按 ] 键将会选中词组的最后一个字。------已注释，若需要请自行打开
   - 2021.04.05 1、加入[zhwiki词库](https://github.com/felixonmars/fcitx5-pinyin-zhwiki)；2、更新[emoji](https://github.com/rime/rime-emoji)；3、加入反查（二分方案，全拼）---默认未打开；4、其他小修改，复原了[、]的翻页
+  - 2022.01.16 更改默认输入方案为`luna_pinyin`，替换`花园明朝`字体为[思源宋体](https://source.typekit.com/source-han-serif/cn/)或[天珩字库](http://cheonhyeong.com/Simplified/download.html)，设置输入法初始状态为英文。
 
   -----
 
