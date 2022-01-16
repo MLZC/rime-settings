@@ -1,9 +1,9 @@
-# Rime 鼠须管输入法傻瓜式配置指南
-  OS: macOS 11.2.3, Windows 10 LSTC 2019
+# Rime 鼠须管输入法傻瓜式配置指南 - 全拼用户
+  OS: macOS 12.1, Windows 10 LSTC 2019
   
-  version: 0.15.1
+  version: 0.15.2
   
-  Date:2021-04-05
+  Date:2022-01-16
   
   ----
 
@@ -22,7 +22,7 @@
   4. 配置文件支持 Rime 鼠须管0.15.1(macOS)、Weasel 小狼毫0.14.3(Windows),Linux,功能上都没有问题。
 
 
-  ![rime](https://wang-1258168870.cos.ap-guangzhou.myqcloud.com/rime.jpg)
+  ![rime](https://image.i-ll.cc//uPic/20220116/GYFVMj.png?imageMogr2/auto-orient/blur/1x0/quality/75|watermark/2/text/WmhhbyBDaGnigJhzIEJsb2c=/font/dGltZXMgbmV3IHJvbWFu/fontsize/240/fill/IzAwMDAwMA==/dissolve/75/gravity/SouthEast/dx/10/dy/10|imageslim)
 
 
   ## 注意！！！
@@ -52,6 +52,7 @@
 
 
   ## 更新记录
+  - 2022.01.16 更改默认输入方案为`luna_pinyin`，替换`花园明朝`字体为[思源宋体](https://source.typekit.com/source-han-serif/cn/)或[天珩字库](http://cheonhyeong.com/Simplified/download.html)。
   - 2020.03.31 主要问题修复，在 macOS Majave 上测试没有「大BUG」
   - 2020.04.01 感谢 [@mingcheng](https://github.com/mingcheng) 提供的词库
   - 2020.04.02 上传了 Windows 的配置文件，经试验，macOS 皮肤的有些特性不支持，于是只加（chao）了一个 win10 输入法皮肤，有个性化需求的用户请自己定制（定制指南见后）
@@ -77,10 +78,10 @@
   ## 用法
   1. 安装Rime输入法,并注销或重启
   2. 下载仓库所有配置文件到本地
-  3. 安装字体文件(font 文件夹内的两个文件)
+  3. 安装字体文件(font 文件夹内随便选一种，思源宋体对应一个文件，天珩字库对应两个文件)
   4. 右上角打开用户设定，会弹出用户设定文件夹
   
-  ![](https://wang-1258168870.cos.ap-guangzhou.myqcloud.com/pic/2019-10-11-1lAuOL.png)
+  ![](https://image.i-ll.cc//uPic/20220116/7W1YfZ.png?imageMogr2/auto-orient/blur/1x0/quality/75|watermark/2/text/WmhhbyBDaGnigJhzIEJsb2c=/font/dGltZXMgbmV3IHJvbWFu/fontsize/240/fill/IzAwMDAwMA==/dissolve/75/gravity/SouthEast/dx/10/dy/10|imageslim)
   
   5. 将下载的除字体外的所有文件覆盖到用户设定文件夹
   
@@ -89,7 +90,9 @@
   
   ## 配置文件说明
   - `default.custom.yaml` 设置输入法、如何切换输入法、翻页等
-  - `double_pinyin_flypy.custom.yaml` 双拼方案，我用的是小鹤双拼
+  - `double_pinyin_flypy.custom.yaml` 双拼方案 - custom
+  - `luna_pinyin.custom.yaml` 全拼方案 - custom
+  - `trash/luna_pinyin.schema.yaml` 全拼方案，我在用。因为我直接把仓库建在了用户文件夹下，所以经过重新deploy之后会将默认方案放到`trash` 文件夹下。
   - `squirrel.custom.yaml` 设置哪些软件默认英文输入，输入法皮肤等
   - `custom_phrase.txt` 设置快捷输入，修改完成后要重新部署才能生效
   配置文件中大部分都有注释。
@@ -184,6 +187,7 @@
   ------
   
   ## 参考/致谢
+  
   1. [Mac 下调校 Rime](https://mritd.me/2019/03/23/oh-my-rime/)
   2. [鼠须管 0.11 Mac 升级重装配置 2019](https://github.com/cnfeat/Rime)
   3. [鼠须管配置 2019](https://placeless.net/blog/rime-squirrel-customization-2019#article)
@@ -192,5 +196,3 @@
   6. [easy-en](https://github.com/BlindingDark/rime-easy-en)
   7. [Rime](https://github.com/alswl/Rime)
   8. [rime-lua-select-character](https://github.com/BlindingDark/rime-lua-select-character)
-  
-  

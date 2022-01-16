@@ -1,6 +1,6 @@
 patch:
   schema_list:
-    - schema: double_pinyin_flypy # 小鹤双拼
+    # - schema: double_pinyin_flypy # 小鹤双拼
     - schema: luna_pinyin # 全拼
     # - schema: double_pinyin # 自然码
   switcher/hotkeys:
@@ -24,7 +24,7 @@ patch:
   key_binder/bindings: # 设置哪些键可以翻页，需要哪个取消注释即可
     # - { when: composing, accept: Tab, send: Page_Up } # Tab 翻页
     - { when: composing, accept: Tab, send: Right } # Tab 移动光标向右
-    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    # - { when: composing, accept: Shift+Tab, send: Page_Up }
     - { when: paging, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
     - { when: paging, accept: bracketleft, send: Page_Up }

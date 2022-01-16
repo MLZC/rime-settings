@@ -55,7 +55,10 @@ patch:
 # 如果想要修改皮肤，直接更改 color_scheme 的值即可
   style:
     color_scheme: apathy
-
+    # font_face: "TH-Khaai-TP0, TH-Khaai-TP2"
+    font_face: SourceHanSerifSC-Regular
+    font_point: 22
+    label_font_point: 22
   preset_color_schemes:
     mojave_dark:
       name: "沙漠夜／Mojave Dark"
@@ -92,13 +95,13 @@ patch:
       corner_radius: 5
       # font_face: PingFangSC
       # font_face: "PingFangSC-Regular,HanaMinB"
-      font_point: 16
+      # font_point: 30
       hilited_candidate_back_color: 0xFFF0E4
       hilited_candidate_text_color: 0xEE6E00
       horizontal: true
       inline_preedit: true
       # label_font_face: "STHeitiSC-Light"
-      label_font_point: 12
+      # label_font_point: 30
       name: "冷漠／Apathy"
       text_color: 0x424242
     aqua:
