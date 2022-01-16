@@ -12,6 +12,8 @@ patch:
       ascii_mode: true
     com.googlecode.iterm2:
       ascii_mode: true
+      vim_mode: true
+      no_inline: true
     com.apple.finder:
       ascii_mode: true
     com.sublimetext.3:
