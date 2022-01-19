@@ -1,9 +1,9 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.9.29.1
+  distribution_version: 0.14.3
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Wed Feb 12 09:16:25 2014"
-  rime_version: 1.1
+  modified_time: "Wed Jan 19 14:13:35 2022"
+  rime_version: 1.5.3
 
 patch:
 
@@ -21,8 +21,8 @@ patch:
   # 以下修改皮肤
   "style/display_tray_icon": true
   "style/horizontal": true #横排显示
-  "style/font_face": "Microsoft YaHei" #字体
-  "style/font_point": 13 #字体大小
+  "style/font_face": "SourceHanSerifSC-Regular" #字体
+  "style/font_point": 18 #字体大小
   "style/inline_preedit": true # 嵌入式候选窗单行显示
 
   "style/layout/border_width": 0
@@ -35,7 +35,7 @@ patch:
   "style/layout/candidate_spacing": 24 # 候选字间隔
   "style/layout/round_corner": 0 #候选字背景色块圆角幅度
 
-  "style/color_scheme": Micosoft
+  "style/color_scheme": apathy
 
   preset_color_schemes:
     "Micosoft":
