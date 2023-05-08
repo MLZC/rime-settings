@@ -3,6 +3,7 @@
 /luna_pinyin.userdb/*
 /easy_en.userdb/*
 /rime_ice.userdb/*
+/easy_english.userdb/*
 /build/*
 /user.yaml
 /installation.yaml
