@@ -1,4 +1,14 @@
 patch:
+   # 以下软件默认英文模式
+  "app_options/gvim.exe":
+    ascii_mode: true
+  "app_options/tcmatch64.exe":
+    ascii_mode: true
+  "app_options/totalcmd64.exe":
+    ascii_mode: true
+  "app_options/findandrunrobot.exe":
+    ascii_mode: true
+    style/color_scheme: win10
   "preset_color_schemes/blackpink":
     author: swwrww
     back_color: 0x1e1e1e
